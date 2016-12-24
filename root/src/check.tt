@@ -1,0 +1,12 @@
+<table>
+<tr>
+<th colspan="2">[% host %]</th>
+</tr>
+<tr>
+<td class="right">Not Before:</td><td>[% notBefore %]</td>
+</tr>
+<tr>
+<td class="right">Not After:</td><td>[% notAfter %]</td>
+</tr>
+</table>
+<p>If you'd like to receive an email 7 days before the expiry date, <a href="#">click here</a>.</p>

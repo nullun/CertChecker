@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>[% page_title || 'Cert Checker' %]</title>
+<link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+<h1><a class="title" href="/">Cert Checker</a></h1>
+[% IF warning_message %]
+<div><b>[% warning_message %]</b></div>
+[% END %]
+[% content %]
+<div>&copy;CertChecker 2016-2017</div>
+</body>
+</html>
