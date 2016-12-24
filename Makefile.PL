@@ -13,14 +13,14 @@ requires 'Catalyst::Runtime' => '5.90114';
 requires 'Catalyst::Plugin::ConfigLoader';
 requires 'Catalyst::Plugin::Static::Simple';
 requires 'Catalyst::Action::RenderView';
-requires 'Catalyst::Model::DBIC::Schema';
-requires 'Catalyst::View::TT';
+requires 'Catalyst::Model::DBIC::Schema' => '0.65';
+requires 'Catalyst::View::TT' => '0.44';
 requires 'Moose';
 requires 'namespace::autoclean';
 requires 'Config::General'; # This should reflect the config file format you've chosen
                  # See Catalyst::Plugin::ConfigLoader for supported formats
-requires 'DateTime';
-requires 'Net::SSLeay';
+requires 'DateTime' => '1.41';
+requires 'Net::SSLeay' => '1.78';
 
 test_requires 'Test::More' => '0.88';
 catalyst;
