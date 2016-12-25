@@ -7,7 +7,6 @@ extends 'Catalyst::View::TT';
 __PACKAGE__->config(
 	TEMPLATE_EXTENSION => '.tt',
 	render_die         => 1,
-	INCLUDE_PATH       => CertChecker->path_to('root', 'src'),
 	WRAPPER            => 'wrapper.tt',
 );
 
