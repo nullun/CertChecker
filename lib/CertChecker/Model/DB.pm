@@ -5,12 +5,6 @@ use base 'Catalyst::Model::DBIC::Schema';
 
 __PACKAGE__->config(
     schema_class => 'CertChecker::Schema::DB',
-    
-    connect_info => {
-        dsn => 'dbi:SQLite:database.db',
-        user => '',
-        password => '',
-    }
 );
 
 =head1 NAME

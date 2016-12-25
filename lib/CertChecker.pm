@@ -48,6 +48,14 @@ __PACKAGE__->config(
 			__PACKAGE__->path_to('root', 'src'),
 		],
 	},
+
+	'Model::DB' => {
+		connect_info => {
+			dsn => 'dbi:SQLite:database.db',
+			user => '',
+			password => '',
+		}
+	},
 );
 
 # Start the application
