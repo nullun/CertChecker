@@ -16,6 +16,7 @@ requires 'Catalyst::Action::RenderView';
 requires 'Catalyst::Model::DBIC::Schema' => '0.65';
 requires 'Catalyst::View::TT' => '0.44';
 requires 'Moose';
+requires 'MooseX::NonMoose';
 requires 'namespace::autoclean';
 requires 'Config::General'; # This should reflect the config file format you've chosen
                  # See Catalyst::Plugin::ConfigLoader for supported formats
